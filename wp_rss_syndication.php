@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WordPress RSS Syndication Client
+Plugin Name: WordPress RSS Content Syndication Client
 Plugin URI: http://arstropica.com
 Description: Display remote WordPress posts in your blog.
 Version: 1.0
