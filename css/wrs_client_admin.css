@@ -1,0 +1,142 @@
+/*GoToWebinar Client Plugin Stylesheet*/
+#wrs-display
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 900px !important;
+	display: inline-block;
+	float: left;
+	min-height: 500px;
+}
+FORM#wrs_client_admin P
+{
+	padding: 5px 10px;
+	background: #EAEAEA;
+}
+FORM#wrs_client_admin LABEL
+{
+	font-style: italic;
+	line-height: 30px;
+	color: #000000;
+}
+#wrs_client_admin P SPAN
+{
+	font-weight: bold;
+	font-style: italic;
+	color: #656565;
+}
+#wrs_client_admin INPUT#wrs_host_domain_check
+{
+	margin-left: 15px;
+}
+/**/
+#wrs_display_feed
+{
+	=overflow: hidden;
+	=position: relative;
+	min-height: 400px;
+}
+#wrs_display_feed[id]
+{
+	display: block;
+	position: relative;
+}
+P#nofeed
+{
+	=position: absolute;
+	=top: 50%;
+}
+P#nofeed[id]
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+}
+P#nofeed
+{
+	font-weight: bold;
+	color: #8A8A8A;
+}
+/**/
+.settings_page_gotowebinar_client #wrs-display H3
+{
+	border-bottom: 1px groove #ECECEC;
+	padding-bottom: 10px;
+}
+#wrs-display #loading
+{
+	background: url(../images/ajax-loader.gif) no-repeat center;
+}
+/**/
+#wrs-display-webinars TBODY
+{
+	position: relative;
+	min-width: 940px !important;
+}
+#wrs-display-webinars TR.anim.loading
+{
+	display: none;
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	background: url(../images/loading.gif) no-repeat center;
+	z-index: 99;
+}
+#wrs-display-webinars TH
+{
+	text-align: left;
+	padding-bottom: 5px;
+}
+#wrs-display-webinars TR
+{
+	position: relative;
+}
+#wrs-display-webinars TD
+{
+	vertical-align: top;
+	height: 50px;
+}
+#wrs-display-webinars INPUT.wrs_key
+{
+	margin-top: 7px;
+}
+#wrs-display-webinars TR.wrs_recordset
+{
+}
+#wrs-display-webinars .wrs_recordset TD DIV.wrs_meta_container
+{
+	height: 30px;
+	width: 100%;
+	position: relative;
+}
+#wrs-display-webinars .wrs_recordset DIV.wrs_meta
+{
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	visibility: hidden;
+	-visibility: visible;
+}
+#wrs-display-webinars .wrs_recordset:hover DIV.wrs_meta
+{
+	visibility: visible;
+}
+#wrs-display-webinars INPUT.disabled
+{
+	background-color: transparent;
+	border: none;
+}
+.wrsrounded
+{
+	border: 1px solid #DDD;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10;
+	padding: 25px;
+	background: #FFF;
+}
